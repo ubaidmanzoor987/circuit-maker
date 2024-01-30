@@ -109,6 +109,7 @@ const HomePage = () => {
           <LedMatrix
             width={inputs.cabinetsWidth}
             tall={inputs.cabinetsTall}
+            cabinets={inputs.cabinetsPerCircuit}
             aspectRatio={
               aspectRatios.find((option) => option.value === inputs.aspectRatio)
                 ?.aspectRatio || 1

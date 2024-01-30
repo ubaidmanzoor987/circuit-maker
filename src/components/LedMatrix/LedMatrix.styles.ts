@@ -10,7 +10,10 @@ export const MatrixContainer = styled.div`
 `;
 
 export const StyledBox = styled(Box)<{ aspectRatio: number }>`
+  position: relative;
   aspect-ratio: ${(props) => `1 / ${props.aspectRatio}`};
   background-color: ${COLORS.GREY_C};
   border: 1px solid #999;
 `;
+
+
