@@ -98,6 +98,7 @@ const HomePage = () => {
             id="aspect-ratio"
             value={inputs.aspectRatio}
             onChange={handleInputChange}
+            style={{ marginBottom: "2rem" }}
           >
             {aspectRatios.map((option) => (
               <option key={option.value} value={option.value}>
